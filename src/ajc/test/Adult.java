@@ -15,4 +15,9 @@ public class Adult extends Human {
 		System.out.println(idCounter);
 	}
 	
+	@Override
+	public void print() {
+		System.out.println("Adult : " + name + ", id : " + id);
+	}
+	
 }
